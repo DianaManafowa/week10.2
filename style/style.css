@@ -1,0 +1,24 @@
+.wrapper {
+    display: flex;
+    flex-direction:column;
+    align-items:baseline;
+    gap: 20px;
+}
+.images-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 200px;
+}
+.img1 {
+    max-width: 300px;
+    height: auto;
+}
+.img2 {
+    max-width: 300px;
+    height: auto;
+}
+
+.price-button:hover {
+    background-color: brown;
+}
