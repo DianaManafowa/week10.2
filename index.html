@@ -1,9 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body></body>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор стоимости</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="images-container">
+            <img src="./assets/image/img1.jpg" class="img1" alt="Товар 1">
+            <img src="./assets/image/img2.jpg" class="img2" alt="Товар 2">
+        </div>
+        <button class="price-button" onclick="calculateTotalPrice()">
+            Узнать стоимость
+        </button>
+        <!-- Элемент для вывода результата -->
+        <p class="result-container"></p>
+    </div>
+
+    <script src="./assets/script/script.js"></script>
+</body>
 </html>
